@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message Msg {
+	string content = 1;
+	int32 len = 2;
+	bool ok = 3;
+  	int32 token = 4;
+}
